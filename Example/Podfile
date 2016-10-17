@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.3'
+
+use_frameworks!
+
+target 'RadioButtonGroup_Example' do
+  pod 'RadioButtonGroup', :path => '../'
+
+  target 'RadioButtonGroup_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
